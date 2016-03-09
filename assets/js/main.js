@@ -2,6 +2,7 @@
 	Retrospect by TEMPLATED
 	templated.co @templatedco
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+	Slightly modified by Paweł Abramowicz
 */
 
 (function($) {
@@ -43,7 +44,7 @@
 		// Nav.
 			$('#nav')
 				.append('<a href="#nav" class="close"></a>')
-//				.appendTo($body)
+				// .appendTo($body)
 				.panel({
 					delay: 500,
 					hideOnClick: true,
@@ -53,6 +54,8 @@
 					side: 'right'
 				});
 
+		// LocalScroll
+			$.localScroll();
 	});
 
 })(jQuery);
